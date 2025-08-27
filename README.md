@@ -16,16 +16,13 @@ PROCEDURE :
 
 1. Define the function alphabet_soup(word).
    
-
 ` def alphabet_soup(word): #DEFINE DUNCTION `
 
-2. Use sorted() to arrange the characters in alphabetical order.
-
-3. Apply ''.join() to reassemble the characters into a string.
+2. Use sorted() to arrange the characters in alphabetical order. Apply ''.join() to reassemble the characters into a string.
 
 `return '' .join(sorted(word)) #SORT LETTERS`
 
-5. Accept user input using input().
+3. Accept user input using input().
 
 `word = input("Type a word: ") #USER INPUT `
 
@@ -35,8 +32,7 @@ PROCEDURE :
 
 OUTPUT :
 
-![Uploading Screenshot 2025-08-27 215035.png…]()
-
+<img width="273" height="43" alt="Screenshot 2025-08-27 215035" src="https://github.com/user-attachments/assets/c144cf50-eb88-4db9-8125-b957a1890412" />
 
 For example, when the user types SirNikkoLobos, the program outputs the same letters in alphabetical order. This shows how simple built-in functions can make text manipulation efficient and very straightforward in Python.
 
@@ -46,9 +42,7 @@ The Emoticon Problem demonstrates the use of dictionaries and string replacement
 
 PROCEDURE :
 
-1. Create a dictionary mapping words to emoticons.
-2. Define the function emote(sentence) to process the text.
-3. Use a for-loop to check each word in the dictionary.
+1. Create a dictionary mapping words to emoticons. Define the function emote(sentence) to process the text and use a for-loop to check each word in the dictionary.
 
 ```
 def emote(sentence):
@@ -61,8 +55,7 @@ def emote(sentence):
     for word, emo in emoticons.items():
 ```
 
-5. Replace the words in the sentence with their corresponding emoticons using .replace().
-6. Return and print the modified sentence.
+2. Replace the words in the sentence with their corresponding emoticons using .replace(). Return and print the modified sentence.
 
 ```
 sentence = sentence.replace(word, emo) # REPLACE EVERY OCCURENCE OF 'WORD' WITH ITS EMOTICON
@@ -76,8 +69,7 @@ print(emote("Engineering makes me sad."))
 
 OUTPUT : 
 
-<img width="273" height="43" alt="Screenshot 2025-08-27 215035" src="https://github.com/user-attachments/assets/7bc6590b-2d3b-40af-b207-c179a8e44528" />
-
+<img width="236" height="89" alt="Screenshot 2025-08-27 215055" src="https://github.com/user-attachments/assets/f24cd37d-3fdb-44fc-926d-84142ff90456" />
 
 For instance, the input sentence “Make me smile!” becomes “Make me :)!” while “I am mad.” becomes “I am >:(.” Similarly, “She gave me a grin.” is transformed into “She gave me a :D.” and “Engineering makes me sad.” becomes “Engineering makes me :((.” This demonstrates how Python dictionaries can act as lookup tables and how text can be modified dynamically using string methods.
 
@@ -91,19 +83,19 @@ PROCEDURE :
 
 `lst = [1, 2, 3, 4, 5, 6] #CREATE LIST`
 
-3. Use .pop(0) to extract the first element.
+2.. Use .pop(0) to extract the first element.
 
 `first = lst.pop(0)   #REMOVE AND RETURN FIRST ELEMENT`
 
-5. Use .pop(-1) to extract the last element.
+3. Use .pop(-1) to extract the last element.
 
 `last = lst.pop(-1)   #REMOVE AND RETURN LAST ELEMENT`
 
-7. Assign the remaining values to middle.
+4. Assign the remaining values to middle.
 
 `middle = lst         #REMAINING LIST`
 
-9. Print the three variables to display the results.
+5. Print the three variables to display the results.
     
 ```
 print("first:", first)
@@ -113,7 +105,6 @@ print("last:", last)
 
 OUTPUT :
 
-first: 1  
-middle: [2, 3, 4, 5]  
-last: 6  
+<img width="190" height="66" alt="Screenshot 2025-08-27 215203" src="https://github.com/user-attachments/assets/664fc724-5a27-4480-ba0f-45b4b9816e1f" />
 
+The program takes the list [1, 2, 3, 4, 5, 6] and divides it into three parts. The first element, which is 1, is removed and stored in the variable first, while the last element, 6, is removed and stored in the variable last. The elements left in the list, [2, 3, 4, 5], are stored in the variable middle. When printed, the program clearly shows the separation of the list as first: 1, middle: [2, 3, 4, 5], and last: 6.
