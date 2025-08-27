@@ -15,20 +15,22 @@ The Alphabet Soup Problem is designed to practice string manipulation. The task 
 **PROCEDURE :**
 
 1. Define the function alphabet_soup(word).
-   
-` def alphabet_soup(word): #DEFINE DUNCTION `
+```python   
+ def alphabet_soup(word): #DEFINE DUNCTION 
+```
 
 2. Use sorted() to arrange the characters in alphabetical order. Apply ''.join() to reassemble the characters into a string.
-
-`return '' .join(sorted(word)) #SORT LETTERS`
-
+```python 
+return '' .join(sorted(word)) #SORT LETTERS
+``` 
 3. Accept user input using input().
-
-`word = input("Type a word: ") #USER INPUT `
-
+```python   
+word = input("Type a word: ") #USER INPUT 
+```
 7. Pass the input word to the function and print the result.
-
-`print(alphabet_soup(word))`
+```python 
+print(alphabet_soup(word))
+```
 
 **OUTPUT :**
 
@@ -46,7 +48,7 @@ The Emoticon Problem demonstrates the use of dictionaries and string replacement
 
 1. Create a dictionary mapping words to emoticons. Define the function emote(sentence) to process the text and use a for-loop to check each word in the dictionary.
 
-```
+```python 
 def emote(sentence):
     emoticons = {      #DICTIONARY MAPPING FROM KEYWORD
         "smile": ":)",
@@ -59,7 +61,7 @@ def emote(sentence):
 
 2. Replace the words in the sentence with their corresponding emoticons using .replace(). Return and print the modified sentence.
 
-```
+```python 
 sentence = sentence.replace(word, emo) # REPLACE EVERY OCCURENCE OF 'WORD' WITH ITS EMOTICON
     return sentence
 print(emote("Make me smile!"))
@@ -84,24 +86,25 @@ The Unpacking List Problem focuses on separating the first, middle, and last ele
 **PROCEDURE :** 
 
 1. Define a list with values [1, 2, 3, 4, 5, 6].
-
-`lst = [1, 2, 3, 4, 5, 6] #CREATE LIST`
-
+```python 
+lst = [1, 2, 3, 4, 5, 6] #CREATE LIST
+```
 2.. Use .pop(0) to extract the first element.
-
-`first = lst.pop(0)   #REMOVE AND RETURN FIRST ELEMENT`
-
+```python 
+first = lst.pop(0)   #REMOVE AND RETURN FIRST ELEMENT
+```
 3. Use .pop(-1) to extract the last element.
-
-`last = lst.pop(-1)   #REMOVE AND RETURN LAST ELEMENT`
+```python 
+last = lst.pop(-1)   #REMOVE AND RETURN LAST ELEMENT
+```
 
 4. Assign the remaining values to middle.
-
-`middle = lst         #REMAINING LIST`
-
+```python 
+middle = lst         #REMAINING LIST
+```
 5. Print the three variables to display the results.
     
-```
+```python 
 print("first:", first)
 print("middle:", middle)
 print("last:", last)
