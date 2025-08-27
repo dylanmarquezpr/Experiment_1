@@ -1,4 +1,4 @@
-<img width="273" height="43" alt="Screenshot 2025-08-27 215035" src="https://github.com/user-attachments/assets/89dc15c9-78a3-4e26-90ca-936fadcceb55" />Experiment 1 - Introduction to Python Programming
+Experiment 1 - Introduction to Python Programming
 
 Name: Dylan Rvy A. Marquez
 Section: 2ECE-B
@@ -34,6 +34,9 @@ PROCEDURE :
 `print(alphabet_soup(word))`
 
 OUTPUT :
+
+![Uploading Screenshot 2025-08-27 215035.png…]()
+
 
 For example, when the user types SirNikkoLobos, the program outputs the same letters in alphabetical order. This shows how simple built-in functions can make text manipulation efficient and very straightforward in Python.
 
